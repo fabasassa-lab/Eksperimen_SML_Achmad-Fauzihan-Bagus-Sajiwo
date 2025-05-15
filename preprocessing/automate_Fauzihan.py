@@ -36,4 +36,4 @@ def preprocess_air_quality(file_path, output_path='preprocessing/air_quality_pre
 
 
 if __name__ == "__main__":
-    preprocess_air_quality("pollutant-standards-index-jogja-2020.csv")
+    preprocess_air_quality("ispu_raw/pollutant-standards-index-jogja-2020.csv")
