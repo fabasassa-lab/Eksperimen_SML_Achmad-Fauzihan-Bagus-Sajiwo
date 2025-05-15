@@ -25,7 +25,7 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python automate_Fauzihan.py
+          python preprocessing/automate_Fauzihan.py
 
       - name: Upload preprocessed dataset as artifact
         uses: actions/upload-artifact@v4
