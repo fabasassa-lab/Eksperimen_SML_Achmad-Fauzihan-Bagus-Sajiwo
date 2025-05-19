@@ -25,10 +25,10 @@ jobs:
 
       - name: Run preprocessing script
         run: |
-          python preprocessing/automate_Fauzihan.py
+          python preprocessing/automate_Achmad-Fauzihan-Bagus-Sajiwo.py
 
       - name: Upload preprocessed dataset as artifact
         uses: actions/upload-artifact@v4
         with:
           name: air-quality-preprocessed
-          path: preprocessing/air_quality_preprocessed.csv
+          path: preprocessing/ispu_preprocessing.csv
